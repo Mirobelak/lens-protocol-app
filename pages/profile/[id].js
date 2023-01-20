@@ -7,7 +7,7 @@ import { ethers } from 'ethers'
 
 const address = "0x60Ae865ee4C725cd04353b5AAb364553f56ceF82"
 
-export default function profile() {
+export default function Profile() {
 
     const [profile, setProfile] = useState()
     const router = useRouter()
